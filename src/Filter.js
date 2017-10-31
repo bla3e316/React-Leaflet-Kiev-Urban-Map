@@ -13,7 +13,7 @@ export default (props) => {
       <hr/>
       <h3>Kiev Subway Entrances</h3>
        <p>A <a href="http://leafletjs.com/">Leaflet</a> &amp; <a href="https://facebook.github.io/react/">React</a> project</p>
-      <p>Filter Entrances by Subway Line</p>
+      <p>Select Subway Line</p>
       <select defaultValue="*"
         type="select"
         name="filterlines"
