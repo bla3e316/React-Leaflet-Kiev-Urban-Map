@@ -1,5 +1,9 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-node_modules
+# Files to ignore
 .DS_Store
 .idea
+
+# Folders to ignore
+build/
+node_modules

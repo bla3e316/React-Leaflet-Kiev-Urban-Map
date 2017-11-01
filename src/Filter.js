@@ -27,6 +27,20 @@ export default (props) => {
             }, this)
           }
       </select>
+      <p>Select Station</p>
+      <select defaultValue=""
+        type="select"
+        name="filterlines"
+        onChange={(e) => filterLines(e)}>
+          { /* We render the select's option elements by maping each of the values of subwayLines array to option elements */ }
+          {
+            lines.map((line, i) => {
+              return (
+                  <option value={line} key={i}>{line}</option>
+                );
+            }, this)
+          }
+      </select>
     </div>
   );
 };
