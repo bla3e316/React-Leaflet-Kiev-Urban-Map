@@ -5,8 +5,8 @@ import 'leaflet/dist/leaflet.css';
 // using webpack json loader we can import our geojson file like this
 import geojson from 'json!./bk_subway_entrances.geojson';
 // import local components Filter and ForkMe
-import Filter from './Filter';
-import ForkMe from './ForkMe';
+import Filter from './filter';
+import ForkMe from './forkme';
 
 // store the map configuration properties in an object,
 // we could also move this to a separate file & import it if desired.

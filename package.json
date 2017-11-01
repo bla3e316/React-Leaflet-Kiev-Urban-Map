@@ -64,7 +64,7 @@
   },
   "dependencies": {
     "json-loader": "^0.5.7",
-    "leaflet": "^1.2.0",
+    "leaflet": "^0.7.7",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },
